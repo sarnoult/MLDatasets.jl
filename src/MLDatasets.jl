@@ -101,6 +101,8 @@ include("datasets/text/udenglish.jl")
 export UD_English
 include("datasets/text/smsspamcollection.jl")
 export SMSSpamCollection
+include("datasets/text/cmudict.jl")
+export CMUdict
 
 # Graphs
 include("graph.jl")
@@ -156,6 +158,7 @@ function __init__()
     __init__ptblm()
     __init__smsspam()
     __init__udenglish()
+    __init__cmudict()
 
     # vision
     __init__cifar10()

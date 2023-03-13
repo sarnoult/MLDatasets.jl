@@ -12,4 +12,5 @@ Pages = ["text.md"]
 PTBLM
 SMSSpamCollection
 UD_English
+CMUdict
 ```
